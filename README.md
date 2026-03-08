@@ -46,6 +46,13 @@ Interface para acompanhamento das métricas do modelo e análise de drift.
 🔗 https://datathon-fiap-api.streamlit.app/
 
 ---
+## 🎥 Vídeo de Apresentação
+
+Demonstração completa da solução desenvolvida no Datathon FIAP:
+
+🔗 https://youtu.be/81zjCpxdAWk
+---
+
 ## Stack Tecnológica
 
 | Componente | Tecnologia |
