@@ -1,5 +1,10 @@
 # Datathon Passos Mágicos — Predição de Risco de Defasagem Escolar
 
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
+![Docker](https://img.shields.io/badge/docker-container-blue)
+![MLflow](https://img.shields.io/badge/MLflow-experiments-orange)
+
 **FIAP Pós Tech | Datathon Machine Learning Engineering**
 
 Modelo preditivo de risco de defasagem escolar para os estudantes da [Associação Passos Mágicos](https://passosmagicos.org.br/). Cobre todo o ciclo de vida de MLOps: ingestão de dados, feature engineering, treinamento, avaliação, API REST, Docker e monitoramento de drift.
@@ -16,7 +21,31 @@ A Associação Passos Mágicos atua há 32 anos transformando a vida de criança
 A métrica principal de avaliação é o **F1-Macro**, que lida adequadamente com o possível desbalanceamento entre as classes.
 
 ---
+---
 
+## Deploy em Produção
+
+A solução já está disponível em produção.
+
+### API de Predição
+
+API responsável por receber os dados dos estudantes e retornar a previsão de risco de defasagem escolar.
+
+🔗 https://datathon-fiap-1.onrender.com/
+
+Documentação interativa (Swagger):
+
+🔗 https://datathon-fiap-1.onrender.com/docs
+
+---
+
+### Dashboard de Monitoramento
+
+Interface para acompanhamento das métricas do modelo e análise de drift.
+
+🔗 https://datathon-fiap-api.streamlit.app/
+
+---
 ## Stack Tecnológica
 
 | Componente | Tecnologia |
@@ -324,9 +353,9 @@ Acesse: [http://localhost:8501](http://localhost:8501)
 - [x] Monitoramento de drift (Evidently + Streamlit)
 - [x] Tracking de experimentos (MLflow)
 - [x] Documentação completa (este README)
-- [ ] Repositório GitHub público
-- [ ] Link para API em produção
-- [ ] Vídeo de até 5 minutos (formato gerencial)
+- [x] Repositório GitHub público
+- [x] Link para API em produção
+- [x] Vídeo de até 5 minutos (formato gerencial)
 
 ---
 
